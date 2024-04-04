@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-......................." crossorigin="anonymous" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-purple-500 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">NEXUX Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Todays Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Featured Post 1 -->
+            <a href="https://punchng.com/impeachment-how-shaibu-leaked-govt-secrets-assembly-tells-panel/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2023/12/11194505/Philip-Shaibu.jpeg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Impeachment: How Shaibu leaked govt secrets, Assembly tells panel</p>
+            </div></a>
+            <!-- Featured Post 2 -->
+            <a href="https://punchng.com/breaking-military-releases-slain-terrorist-commanders-names/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2018/10/26192009/gunmen-e1540578039954.jpg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Military releases slain terrorist commanders’ <br> names</p>
+            </div></a>
+            <!-- Featured Post 3 -->
+            <a href="https://punchng.com/breaking-arraignment-of-binance-executive-stalled/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2024/04/04094745/WhatsApp-Image-2024-04-04-at-9.37.07-AM.jpeg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Arraignment of Binance executive stalled <br> market</p>
+            </div></a>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Categories</h2>
+        <div>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">NEWS</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">VIDEOS</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">EDITORIAL</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Recent Posts</h2>
+        <ul>
+            <li class="mb-2">
+                <a href="https://punchng.com/kaduna-denies-fresh-17-69m-loan/" class="text-blue-500 hover:underline">Kaduna denies fresh $17.69m loan</a>
+                <span class="text-gray-500 text-sm ml-2">April 4, 2024</span>
+            </li>
+            <li class="mb-2">
+                <a href="https://punchng.com/full-list-ikedc-unveils-lagos-areas-enjoying-20-24-hours-power-supply/" class="text-blue-500 hover:underline">FULL LIST: NERC unveils Lagos areas enjoying 20-24 hours power supply</a>
+                <span class="text-gray-500 text-sm ml-2">April 4, 2024</span>
+            </li>
+            <li class="mb-2">
+                <a href="https://punchng.com/air-peace-raises-lagos-london-route-capacity-over-rising-demand/" class="text-blue-500 hover:underline">Air Peace raises Lagos-London route capacity over rising demand</a>
+                <span class="text-gray-500 text-sm ml-2">April 4, 2024</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Subscribe to Our Newsletter</h2>
+        <form class="flex items-center">
+            <input type="email" placeholder="Enter your email" class="border border-gray-300 rounded-l py-2 px-4 focus:outline-none" required>
+            <button type="submit" class="bg-purple-500 text-white px-4 py-2 rounded-r hover:bg-blue-600 focus:outline-none">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-purple-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <h3 class="text-lg font-semibold">Connect With Us</h3>
+                <ul class="flex space-x-4 mt-2">
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <p>&copy; 2024 NEXUX Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
